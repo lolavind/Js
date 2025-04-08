@@ -252,8 +252,8 @@ label {
 }
 
 .boka_bord_bakgrund {
-	background-image: url(public/bakgrund_boka.png);
-	background-size: cover;
+/* 	background-image: url(".img/bakgrund_boka.png");
+ */	background-size: cover;
 }
 
 /*Om oss*/
