@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Meny from "./Meny";
+
 
 
 const App = () => {
