@@ -1,26 +1,9 @@
 import React from "react";
-import "./style.css";
-import logga from "./public/logga.png";
-import burgerIcon from "./public/burger-bar.png";
+
 
 const Boka = () => {
 	return (
 		<div>
-			<header>
-				<div className="logga">
-					<img src={logga} alt="Eurasias logotyp" />
-				</div>
-				<div className="meny">
-					<nav>
-						<a href="/" tabIndex="1">Start</a>
-						<a href="/meny" tabIndex="2">Meny</a>
-						<a href="/boka" tabIndex="3">Boka</a>
-						<a href="/om" tabIndex="4">Om oss</a>
-						<a href="/oppettider" tabIndex="5">Öppettider</a>
-					</nav>
-				</div>
-				<img className="burger" src={burgerIcon} alt="Meny ikon" />
-			</header>
 			<div className="boka_bord_bakgrund">
 				<h1 className="boka-bord">Boka bord</h1>
 				<div className="boknings_text">
@@ -51,9 +34,6 @@ const Boka = () => {
 					</form>
 				</div>
 			</div>
-			<footer>
-				<p>Restaurang Eurasia AB - Renmarksesplanaden 12 - 90326 UMEÅ</p>
-			</footer>
 		</div>
 	);
 };
