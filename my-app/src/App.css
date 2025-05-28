@@ -221,6 +221,15 @@ ul li {
 	}
 }
 
+.container {
+	text-align: center;
+	padding-bottom: 5vw;
+}
+
+.promo-image {
+	width: 25vw;
+}
+
 
 /*Boka*/
 .boknings_text {

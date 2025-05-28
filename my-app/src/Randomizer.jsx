@@ -3,18 +3,18 @@ import React, { useEffect, useState } from 'react';
 const promotionalItems = [
   {
     id: 1,
-    image: 'https://via.placeholder.com/300x200.png?text=Product+1',
-    description: 'Super Sale on Product 1!',
+    image: './img/kyckling-med-cashew.png',
+    description: 'Rea på kyckling med cashewnötter!!!',
   },
   {
     id: 2,
-    image: 'https://via.placeholder.com/300x200.png?text=Product+2',
-    description: 'Limited Time Offer on Product 2!',
+    image: './img/lökringar.jpg',
+    description: 'Superdeal på lökringar :)',
   },
   {
     id: 3,
-    image: 'https://via.placeholder.com/300x200.png?text=Product+3',
-    description: 'Buy 1 Get 1 Free on Product 3!',
+    image: './img/räkor.jpg.webp',
+    description: 'Rea rea rea på räkor i stark vitlökssås!!!',
   },
 ];
 
@@ -30,7 +30,7 @@ function Randomizer() {
 
   return (
     <div className="container">
-      <img src={selectedItem.image} alt={`Product ${selectedItem.id}`} />
+      <img src={selectedItem.image} alt={`Product ${selectedItem.id}`} className='promo-image'/>
       <p>{selectedItem.description}</p>
     </div>
   );

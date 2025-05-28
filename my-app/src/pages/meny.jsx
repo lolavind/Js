@@ -1,11 +1,17 @@
 import React from "react";
 import { a } from "react-router-dom";
+import Randomizer from "../Randomizer";
 
 
 const Meny = () => {
 	return (
 		<div>
 			<h1 className="meny_h1">Meny</h1>
+				<div className="random">
+					<Randomizer />
+				</div>
+				
+
 			<div>
 				<p className="list_head">Köksmästaren rekommenderar</p>
 				<ul>
