@@ -195,11 +195,26 @@ ul li {
 	text-align: center;
 }
 
+.expand-menu {
+	text-align: center;
+}
+
 .se_mer {
 	cursor: pointer;
 	width: 15vw;
 	margin-left: auto;
 	margin-right: auto;
+	border-bottom: 2px solid transparent; /* Gör så att linjen inte syns från början */
+	transition: border-bottom 0.3s ease-in-out; /* Gör effekten mjuk */
+}
+
+.se_mer:hover {
+	border-bottom: 2px solid black; /* Visar en svart linje vid hover */
+}
+
+.toggle-button {
+	font-weight: bold;
+	text-align: center;
 }
 
 @media print {

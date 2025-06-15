@@ -1,6 +1,7 @@
 import React from "react";
 import { a } from "react-router-dom";
 import Randomizer from "../Randomizer";
+import SeeMore from "../SeeMore";
 
 
 const Meny = () => {
@@ -18,8 +19,8 @@ const Meny = () => {
 					<li>Eurasia special 175:-</li>
 					<li>Räkor i stark vitlökssås 195:-</li>
 					<li>Szechuen anka 185:-</li>
-					<li className="se_mer" tabIndex="6">Se mer...</li>
 				</ul>
+				<SeeMore />
 			</div>
 			<div>
 				<p className="list_head">Förrätter</p>
