@@ -23,10 +23,6 @@ const App = () => {
 		<div>
 			<Router>
 				<Header/>
-				<div>
-					{/* <h2>Today's Promotion</h2>
-					<Randomizer /> */}
-				</div>
 				<Routes>
 					<Route path="/" element={<Home/>}/>
 					<Route path="/Meny" element={<Meny/>}/>

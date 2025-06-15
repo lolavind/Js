@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../ContactForm";
 
 
 const Boka = () => {
@@ -15,7 +16,8 @@ const Boka = () => {
 					</p>
 				</div>
 				<div className="form">
-					<form action="">
+					<ContactForm />
+				{/* 	<form action="">
 						<label htmlFor="Förnamn">Förnamn</label>
 						<input type="text" tabIndex="6" id="Förnamn" name="Förnamn" placeholder="..." />
 						<label htmlFor="Efternamn">Efternamn</label>
@@ -31,7 +33,7 @@ const Boka = () => {
 						<input type="text" tabIndex="11" id="Antal" name="Antal" placeholder="..." />
 						<br />
 						<input className="submit" tabIndex="12" type="submit" value="Submit" />
-					</form>
+					</form> */}
 				</div>
 			</div>
 		</div>

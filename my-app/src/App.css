@@ -283,6 +283,20 @@ label {
  */	background-size: cover;
 }
 
+/* input.invalid {
+	border: 2px red;
+} */
+
+input.invalid {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+/* input:valid {
+  border: 2px solid green;
+  background-color: #eaffea;
+} */
+
 /*Om oss*/
 .om_oss {
 	margin-left: 10vw;
