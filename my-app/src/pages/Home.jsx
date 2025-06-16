@@ -1,4 +1,5 @@
 import React from "react";
+import HoverZoomText from "../HoverZoomText";
 //import {NavLink, Link} from "react-router-dom";
 
 class Home extends React.Component {
@@ -13,7 +14,7 @@ class Home extends React.Component {
 							<img className="knapp_bild" src={"./img/meny.png"} alt="Vår meny bakgrundsbild" />
 							<div className="centered">
 								<a href="/meny" tabIndex="6">
-									<h1>Meny</h1>
+									<HoverZoomText>Meny</HoverZoomText>
 								</a>
 							</div>
 						</div>
@@ -21,7 +22,7 @@ class Home extends React.Component {
 							<img className="knapp_bild" src={"./img/bord.png"} alt="Boka bord bakgrundsbild" />
 							<div className="centered">
 								<a href="/boka" tabIndex="7">
-									<h1>Boka bord</h1>
+									<HoverZoomText>Boka bord</HoverZoomText>
 								</a>
 							</div>
 						</div>
