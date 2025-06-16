@@ -328,6 +328,36 @@ input.invalid {
 .rad_2_text {
 	flex: 1; /* Gör att båda tar upp lika mycket utrymme */
 	text-align: center;
+
+/*   width: 100%;
+  height: auto; */
+  
+}
+.rad_2_bild{
+	cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-image {
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 10px;
+ /*  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); */
+  transition: transform 0.3s ease;
 }
 
 /*Öppettider*/

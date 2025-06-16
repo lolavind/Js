@@ -1,4 +1,5 @@
 import React from "react";
+import PopupImage from "../PopUpImage";
 
 const Om = () => {
   return (
@@ -30,12 +31,7 @@ const Om = () => {
 
       <div className="rad_2_om">
         <div className="rad_2_bild">
-          <img
-            width="100%"
-            height="100%"
-            src={"./img/rad_2_bild.jpg"}
-            alt="Bild innuti Eurasia restaurang"
-          />
+          <PopupImage />
         </div>
         <div className="rad_2_text">
           <p>
