@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-//const SeeMore = () => { return 'kalle'}
 function SeeMore() {
 	const [showMore, setShowMore] = useState(false);
 
@@ -8,14 +7,7 @@ function SeeMore() {
 		setShowMore(!showMore);
 	};
 
-
-	/* if (showMore) {
-		return (<div onClick={() => {setShowMore(false)}}>Mer text...</div>)	
-	} */
-
-	return (
-		/* 		<div onClick={() => {setShowMore(true)}}>Se mer...</div> */
-		
+	return (	
 		<div className="expand-menu">
 			{showMore && (
 				<ul className="extraAlternatives">
