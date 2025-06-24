@@ -1,6 +1,6 @@
 import React from "react";
 import HoverZoomText from "../HoverZoomText";
-//import {NavLink, Link} from "react-router-dom";
+import { klick } from "../button";
 
 class Home extends React.Component {
 	render(){
@@ -8,6 +8,8 @@ class Home extends React.Component {
 			<><div>
 				<img src={"./img/banner2.png"} className="banner" alt="Eurasia" />
 			</div><section>
+					{/* <button onClick={klick}>Show Message</button> */}
+
 					<h2>Vi serverar Umeås bästa kinesiska mat!</h2>
 					<div className="start_bilder">
 						<div className="meny_bild_div">
