@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-/* import './App.css'; */
 
 const PopupImage = () => {
   const [isOpen, setIsOpen] = useState(false);
