@@ -17,23 +17,6 @@ const Boka = () => {
 				</div>
 				<div className="form">
 					<ContactForm />
-				{/* 	<form action="">
-						<label htmlFor="Förnamn">Förnamn</label>
-						<input type="text" tabIndex="6" id="Förnamn" name="Förnamn" placeholder="..." />
-						<label htmlFor="Efternamn">Efternamn</label>
-						<input type="text" tabIndex="7" id="Efternamn" name="Efternamn" placeholder="..." />
-						<label htmlFor="Epost">Epost</label>
-						<input type="text" tabIndex="8" id="Epost" name="Epost" placeholder="..." />
-						<br />
-						<label htmlFor="Datum">Datum</label>
-						<input type="text" tabIndex="9" id="Datum" name="Datum" placeholder="DD/MM/ÅÅ" />
-						<label htmlFor="Tid">Tid</label>
-						<input type="text" tabIndex="10" id="Tid" name="Tid" placeholder="XX:XX" />
-						<label htmlFor="Antal">Antal</label>
-						<input type="text" tabIndex="11" id="Antal" name="Antal" placeholder="..." />
-						<br />
-						<input className="submit" tabIndex="12" type="submit" value="Submit" />
-					</form> */}
 				</div>
 			</div>
 		</div>
