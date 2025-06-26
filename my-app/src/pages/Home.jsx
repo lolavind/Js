@@ -1,6 +1,6 @@
 import React from "react";
 import HoverZoomText from "../HoverZoomText";
-import { klick } from "../button";
+/* import { klick } from "../button"; */
 
 class Home extends React.Component {
 	render(){

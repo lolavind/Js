@@ -14,8 +14,8 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 
 //extra
-import PopupButton from "./PopupButton.jsx";
-import Randomizer from './Randomizer.jsx';
+/* import PopupButton from "./PopupButton.jsx";
+import Randomizer from './Randomizer.jsx'; */
 
 
 const App = () => {
